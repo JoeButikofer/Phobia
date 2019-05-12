@@ -12,7 +12,7 @@ Regardless of the scenario, if something goes wrong the therapist can send the p
 
 Another application (Android) is installed on the therapist's mobile device. It allows him to control the simulation and take notes during the session. At the end of the session, those notes are saved alongside a video capture of the patient's point of view. Past sessions can then be reviewed inside the Unity application.
 
-Please note that this repository only contains the code of the application, there is no scene, prefab or any other asset.
+Please note that this repository only contains the code of the application (there is no scene, prefab or any other asset) and doesn't include code from external librairies.
 
 ## Technologies
 
