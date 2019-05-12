@@ -1,8 +1,9 @@
 # ignore everything
 *
-# but not directories and the .gitignore...
+# except directories, the .gitignore, the readme...
 !*/
 !.gitignore
+!README.md
 
 #..., our scripts...
 
