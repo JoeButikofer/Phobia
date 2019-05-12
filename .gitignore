@@ -1,12 +1,13 @@
 # ignore everything
 *
-# but not directories and the .gitignore
+# but not directories and the .gitignore...
 !*/
 !.gitignore
 
-# except our scripts...
+#..., our scripts...
 
 !Assets/Core/Scripts/**/*.cs
+!Assets/Core/Editor/**/*.cs
 
 !Assets/Arachnophobia/Scripts/**/*.cs
 
