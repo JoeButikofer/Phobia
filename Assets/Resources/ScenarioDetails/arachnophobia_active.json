@@ -1,0 +1,145 @@
+{
+	"name":"Actif",
+	"phobia":"Arachnophobie",
+	"description":"Le patient est dans une pièce où se trouve des araignées. L'objectif du scénario est de chercher les araignées puis de les éliminer en les jetant par la fenêtre, dans le carton ou dans la poubelle. Pour saisir les araignées, le patient dispose d'un grappin extensible, il peut également les prendre à la main",
+
+	"minIntensityLevel" :0,
+	"maxIntensityLevel" :8,
+	
+	"parameters" :
+	[
+		{
+			"name":"size",
+			"displayName":"Taille des araignées",
+			"type":"choice",
+			"values":
+			[
+				"Petite",
+				"Moyenne",
+				"Grande"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		},
+		{
+			"name":"number",
+			"displayName":"Nombre maximum d'araignées présentes simultanément",
+			"type":"int",
+			"min":0,
+			"max":7,
+			"intensityDefault":
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				7
+			]
+		},
+		{
+			"name":"reaction",
+			"displayName":"Réaction des araignées",
+			"type":"choice",
+			"values":
+			[
+				"Aucune",
+				"Fuite",
+				"Fait face"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		},
+		{
+			"name":"speed",
+			"displayName":"Mobilité des araignées",
+			"type":"choice",
+			"values":
+			[
+				"Ne bouge pas",
+				"Bouge"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"name":"dirtiness",
+			"displayName":"Etat de la pièce",
+			"type":"choice",
+			"values":
+			[
+				"Propre",
+				"Peu de toiles",
+				"Beaucoup de toiles"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		},
+		{
+			"name":"grabberLength",
+			"displayName":"Longueur maximum du grappin",
+			"type":"choice",
+			"values":
+			[
+				"Long",
+				"Moyen",
+				"Court"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		}
+	]
+}

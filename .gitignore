@@ -1,0 +1,16 @@
+# ignore everything
+*
+# but not directories and the .gitignore
+!*/
+!.gitignore
+
+# except our scripts...
+
+!Assets/Core/Scripts/**/*.cs
+
+!Assets/Arachnophobia/Scripts/**/*.cs
+
+#... and the configuration for scenarios
+!Assets/Resources/ScenarioDetails/*.json
+
+

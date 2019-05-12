@@ -1,0 +1,122 @@
+{
+	"name":"Passif",
+	"phobia":"Arachnophobie",
+	"description":"Le patient est dans une pièce où se trouve des araignées. L'objectif du scénario est de simplement explorer la pièce en gardant son calme. Des oiseaux en papier sont cachés dans la pièce, les récuperer constitue un objectif secondaire. Certains peuvent se trouver proche d'une araignée",
+
+	"minIntensityLevel" :0,
+	"maxIntensityLevel" :8,
+	
+	"parameters" :
+	[
+		{
+			"name":"size",
+			"displayName":"Taille des araignées",
+			"type":"choice",
+			"values":
+			[
+				"Petite",
+				"Moyenne",
+				"Grande"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		},
+		{
+			"name":"number",
+			"displayName":"Nombre d'araignées",
+			"type":"int",
+			"min":0,
+			"max":11,
+			"intensityDefault":
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				9,
+				11
+			]
+		},
+		{
+			"name":"reaction",
+			"displayName":"Réaction des araignées",
+			"type":"choice",
+			"values":
+			[
+				"Aucune",
+				"Fuite",
+				"Fait face"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		},
+		{
+			"name":"speed",
+			"displayName":"Mobilité des araignées",
+			"type":"choice",
+			"values":
+			[
+				"Ne bouge pas",
+				"Bouge"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"name":"dirtiness",
+			"displayName":"Etat de la pièce",
+			"type":"choice",
+			"values":
+			[
+				"Propre",
+				"Peu de toiles",
+				"Beaucoup de toiles"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				2,
+				2
+			]
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"name":"scenarioName",
+	"phobia":"phobiaName",
+	"description":"description for the scenario",
+	
+	"minIntensityLevel" :0,
+	"maxIntensityLevel" :3,
+
+	"parameters" :
+	[
+		{
+			"name":"boolParameter",
+			"displayName":"boolParameter",
+			"type":"bool",
+			"intensityDefault":
+			[
+				false,
+				false,
+				true,
+				true
+			]
+		},
+		{
+			"name":"intParameter",
+			"displayName":"intParameter",
+			"type":"int",
+			"min":0,
+			"max":10,
+			"intensityDefault":
+			[
+				0,
+				3,
+				7,
+				10
+			]
+		},
+		{
+			"name":"floatParameter",
+			"displayName":"floatParameter",
+			"type":"float",
+			"min":1.0,
+			"max":5.0,
+			"intensityDefault":
+			[
+				1.0,
+				2.5,
+				4.0,
+				5.0
+			]
+		},
+		{
+			"name":"choiceParameter",
+			"displayName":"choiceParameter",
+			"type":"choice",
+			"values":
+			[
+				"First",
+				"Second",
+				"Third"
+			],
+			"intensityDefault":
+			[
+				0,
+				0,
+				1,
+				2
+			]
+		}
+	]
+}
